@@ -40,3 +40,33 @@ testem.log
 # System files
 .DS_Store
 Thumbs.db
+# Ignore arquivos e diretórios do sistema
+.DS_Store
+Thumbs.db
+*.log
+*.swp
+*.swo
+*.tmp
+*.bak
+
+# Ignore diretórios de configuração do usuário
+/.vscode/
+/.idea/
+/node_modules/
+/dist/
+/build/
+/coverage/
+/.env
+
+# Ignore arquivos específicos do sistema operacional
+*.ini
+*.dat
+*.log
+*.swp
+*.swo
+*.tmp
+*.bak
+
+# Ignore arquivos e diretórios fora do projeto
+../*
+!../Controle-Contatos/
